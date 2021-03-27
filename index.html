@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Weather App</title>
+<script src="https://kit.fontawesome.com/f5feefd276.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+<body>
+    <div class="container"
+    <div class="card" style= "width: 55rem;">
+        <div class="card-body">
+         <div class="col-6">
+    <form id= "search-form">
+        <div class="col-auto"></div>
+        <input 
+        type="text" 
+        placeholder="search a city"
+        class="form-control"
+        id = "search-city" />
+        <input
+              type="submit"
+              value="Current Location"
+              class="change_city"
+              id="actual_position"
+            />
+    </div>
+    <div class="col-auto">
+    <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+    
+    </form>
+    </div>
+    <h1 id ="city">   
+        Toronto, ON 
+    </h1>
+    <h5 id= "date">
+        Sunday, Feb 27, 2020 
+    </h5>
+    <h2 id="temperature">
+        -10°C
+    </h2>
+   <!-- <h3>
+        <i class="fas fa-sun"></i>
+    </h3> --> 
+    <h4>
+       <div>
+           <ul>
+               <li id= "description"> Clear Sky </li>
+               <li id= "humidity">Humidity: 15%</li>
+               <li id="wind">Wind: 21km/h</li>
+           </ul>
+       </div> 
+
+    </h4>
+   
+    <div class="row">
+    
+    <div class="card" style="width: 10rem;">
+    <div class="card-body">
+        <div class="col" style="text-align: center;">
+            SUNDAY
+        </br>
+        <i class="fas fa-cloud"></i>
+        </br>
+        -8°C
+        </div>
+    </div>
+    </div>
+
+    <div class="card" style="width: 10rem;">
+    <div class="card-body">
+        <div class="col" style="text-align: center;">
+            MONDAY
+        </br>
+        <i class="fas fa-sun"></i>
+        </br>
+        -10°C
+        </div>
+    </div>
+    </div>
+
+    <div class="card" style="width: 10rem;">
+    <div class="card-body">
+        <div class="col" style="text-align: center;">
+            TUESDAY
+        </br>
+        <i class="far fa-snowflake"></i>
+        </br>
+        -11°C
+        </div>
+    </div>
+    </div>
+
+    <div class="card" style="width: 10rem;">
+    <div class="card-body">
+        <div class="col" style="text-align: center;">
+            WEDNESDAY
+        </br>
+        <i class="fas fa-cloud-sun"></i>
+        </br>
+        -5°C
+        </div>
+    </div>
+    </div>
+
+    <div class="card" style="width: 10rem;">
+    <div class="card-body">
+        <div class="col" style="text-align: center;">
+            THURSDAY
+        </br>
+        <i class="fas fa-sun"></i>
+        </br>
+        -7°C
+        </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    
+    </div>
+    <script src="src/script.js">
+     </script> 
+</body>
+</html>

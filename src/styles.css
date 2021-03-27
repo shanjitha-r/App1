@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #050e70;
+}
+
+h3 i {
+  color: #ffd400;
+  font-size: 60px;
+}
+h4 {
+  padding-bottom: 20px;
+}
+ul {
+  list-style: none;
+}
